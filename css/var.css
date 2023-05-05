@@ -1,0 +1,14 @@
+:root {
+    --title-text-color: #2E2F42;
+    --text-color: #434455;
+    --focus-text: #404BBF;
+    --text-button: #4D5AE5;
+    --background-button: #E7E9FC;
+    --focus-button: #FFFFFF;
+    --footer-text: #F4F4FD;
+    --footer-focus-link: #31D0AA;
+    --logo: #8E8F99;
+    --anim-transition: 250ms linear;
+    --modal: #FCFCFC;
+
+}

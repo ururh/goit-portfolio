@@ -1,0 +1,209 @@
+@media screen and (min-width:768px) {
+    .container{
+        width: 768px ;
+    }
+
+/* header */
+.flex{
+    padding: 0;
+}
+
+.header {
+    padding:0;
+    height: 72px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.padding-web {
+    margin-right: 120px;
+}
+
+.burger{
+    display: none;
+}
+
+.links {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    padding: 24px 0;
+    transition: color var(--anim-transition);
+    display: block;
+    position: relative;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -1px;
+    background-color: var(--focus-text);
+    left: 0;
+    border-radius: 2px;
+
+}
+
+.links:hover,
+.links:focus {
+    color: var(--focus-text);
+}
+
+/* header-address */
+
+.address {
+    margin-left: 122px;
+}
+
+.div{
+    padding-top: 16px;
+}
+.addr-nav {
+    display: block;
+    font-style: normal;
+    margin-left: auto;
+
+}
+
+.contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    transition: color var(--anim-transition);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--focus-text);
+} 
+
+/* hero */
+
+.hero-title {
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: calc(60 / 56);
+}
+
+  /* first section "Our work" */
+.work{
+    text-align: left;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+} 
+
+   .work-item {
+    width: calc((100% - 32px) / 2);
+}
+
+   .work-bg-icon {
+       display: none;
+   }
+
+/* third section "Our team" */
+
+
+
+.bg-cards {
+    width: calc((100% - 216px) / 2);
+    margin: 0;
+}
+
+.bg-cards:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    justify-content: center;
+}
+
+.work-item:not(:last-child) {
+    margin-bottom: 0;
+}
+
+/* Customers */
+
+.logo-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--title-text-color);
+    text-align: center;
+    margin-bottom: 72px;
+    letter-spacing: 0.02em;
+
+}
+
+.logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+}
+
+.logo-item {
+    width: calc((100% - 216px) / 3);
+}
+
+
+/* footer */
+
+
+.footer-webstudio {
+    margin-right: 24px;
+    text-align: left;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.footer-content {
+    text-align: left;
+}
+
+.footer-media {
+    text-align: left;
+}
+
+.subscribe-form {
+    margin-right: 24px;
+}
+
+.subscribe-title {
+    text-align: left;
+}
+
+.subscribe-input {
+    width: 264px;
+}
+
+.modal {
+    width: 408px;
+    max-height: 584px;
+}
+
+}
